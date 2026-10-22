@@ -1,0 +1,3 @@
+# Dataset card — Synthetic IT-support response pairs
+
+**Provenance:** Authored synthetic examples, not scraped or customer-derived. **Size:** 6 cases, 12 responses. **Intended use:** Demonstrate evaluation methodology and automated tests. **Not suitable for:** estimating real-world LLM accuracy, safety, bias prevalence, or OpenVals effectiveness. **Labels:** `expert_preferred_id` is an illustrative author-specified reference, not an independently validated expert annotation. **Critical flags:** illustrative severity classifications, not calibrated incident risk. **Privacy:** no personal or confidential records. **Limitations:** small, English-only, binary comparisons, simplified IT-support scenarios.

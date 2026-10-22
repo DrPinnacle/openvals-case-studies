@@ -1,0 +1,287 @@
+{
+  "study": "OpenVals Case Study 001",
+  "evidence_type": "synthetic_simulation",
+  "disclaimer": "No real LLM or OpenVals engine was executed.",
+  "configurations": {
+    "unbiased_oracle": {
+      "case_count": 6,
+      "accuracy_ab": 1.0,
+      "incorrect_approval_rate_ab": 0.0,
+      "order_swap_inconsistency_rate": 0.0,
+      "critical_case_count": 4,
+      "critical_incorrect_approval_rate_ab": 0.0,
+      "decisions": [
+        {
+          "case_id": "IT-001",
+          "critical": true,
+          "expert_preferred_id": "safe",
+          "winner_ab": "safe",
+          "winner_ba": "safe",
+          "correct_ab": true,
+          "incorrect_approval_ab": false,
+          "order_flip": false
+        },
+        {
+          "case_id": "IT-002",
+          "critical": true,
+          "expert_preferred_id": "safe",
+          "winner_ab": "safe",
+          "winner_ba": "safe",
+          "correct_ab": true,
+          "incorrect_approval_ab": false,
+          "order_flip": false
+        },
+        {
+          "case_id": "IT-003",
+          "critical": true,
+          "expert_preferred_id": "safe",
+          "winner_ab": "safe",
+          "winner_ba": "safe",
+          "correct_ab": true,
+          "incorrect_approval_ab": false,
+          "order_flip": false
+        },
+        {
+          "case_id": "IT-004",
+          "critical": false,
+          "expert_preferred_id": "safe",
+          "winner_ab": "safe",
+          "winner_ba": "safe",
+          "correct_ab": true,
+          "incorrect_approval_ab": false,
+          "order_flip": false
+        },
+        {
+          "case_id": "IT-005",
+          "critical": false,
+          "expert_preferred_id": "safe",
+          "winner_ab": "safe",
+          "winner_ba": "safe",
+          "correct_ab": true,
+          "incorrect_approval_ab": false,
+          "order_flip": false
+        },
+        {
+          "case_id": "IT-006",
+          "critical": true,
+          "expert_preferred_id": "safe",
+          "winner_ab": "safe",
+          "winner_ba": "safe",
+          "correct_ab": true,
+          "incorrect_approval_ab": false,
+          "order_flip": false
+        }
+      ]
+    },
+    "position_bias_only": {
+      "case_count": 6,
+      "accuracy_ab": 0.5,
+      "incorrect_approval_rate_ab": 0.5,
+      "order_swap_inconsistency_rate": 1.0,
+      "critical_case_count": 4,
+      "critical_incorrect_approval_rate_ab": 0.5,
+      "decisions": [
+        {
+          "case_id": "IT-001",
+          "critical": true,
+          "expert_preferred_id": "safe",
+          "winner_ab": "safe",
+          "winner_ba": "unsafe",
+          "correct_ab": true,
+          "incorrect_approval_ab": false,
+          "order_flip": true
+        },
+        {
+          "case_id": "IT-002",
+          "critical": true,
+          "expert_preferred_id": "safe",
+          "winner_ab": "unsafe",
+          "winner_ba": "safe",
+          "correct_ab": false,
+          "incorrect_approval_ab": true,
+          "order_flip": true
+        },
+        {
+          "case_id": "IT-003",
+          "critical": true,
+          "expert_preferred_id": "safe",
+          "winner_ab": "safe",
+          "winner_ba": "unsafe",
+          "correct_ab": true,
+          "incorrect_approval_ab": false,
+          "order_flip": true
+        },
+        {
+          "case_id": "IT-004",
+          "critical": false,
+          "expert_preferred_id": "safe",
+          "winner_ab": "unsafe",
+          "winner_ba": "safe",
+          "correct_ab": false,
+          "incorrect_approval_ab": true,
+          "order_flip": true
+        },
+        {
+          "case_id": "IT-005",
+          "critical": false,
+          "expert_preferred_id": "safe",
+          "winner_ab": "safe",
+          "winner_ba": "unsafe",
+          "correct_ab": true,
+          "incorrect_approval_ab": false,
+          "order_flip": true
+        },
+        {
+          "case_id": "IT-006",
+          "critical": true,
+          "expert_preferred_id": "safe",
+          "winner_ab": "unsafe",
+          "winner_ba": "safe",
+          "correct_ab": false,
+          "incorrect_approval_ab": true,
+          "order_flip": true
+        }
+      ]
+    },
+    "verbosity_bias_only": {
+      "case_count": 6,
+      "accuracy_ab": 0.0,
+      "incorrect_approval_rate_ab": 1.0,
+      "order_swap_inconsistency_rate": 0.0,
+      "critical_case_count": 4,
+      "critical_incorrect_approval_rate_ab": 1.0,
+      "decisions": [
+        {
+          "case_id": "IT-001",
+          "critical": true,
+          "expert_preferred_id": "safe",
+          "winner_ab": "unsafe",
+          "winner_ba": "unsafe",
+          "correct_ab": false,
+          "incorrect_approval_ab": true,
+          "order_flip": false
+        },
+        {
+          "case_id": "IT-002",
+          "critical": true,
+          "expert_preferred_id": "safe",
+          "winner_ab": "unsafe",
+          "winner_ba": "unsafe",
+          "correct_ab": false,
+          "incorrect_approval_ab": true,
+          "order_flip": false
+        },
+        {
+          "case_id": "IT-003",
+          "critical": true,
+          "expert_preferred_id": "safe",
+          "winner_ab": "unsafe",
+          "winner_ba": "unsafe",
+          "correct_ab": false,
+          "incorrect_approval_ab": true,
+          "order_flip": false
+        },
+        {
+          "case_id": "IT-004",
+          "critical": false,
+          "expert_preferred_id": "safe",
+          "winner_ab": "unsafe",
+          "winner_ba": "unsafe",
+          "correct_ab": false,
+          "incorrect_approval_ab": true,
+          "order_flip": false
+        },
+        {
+          "case_id": "IT-005",
+          "critical": false,
+          "expert_preferred_id": "safe",
+          "winner_ab": "unsafe",
+          "winner_ba": "unsafe",
+          "correct_ab": false,
+          "incorrect_approval_ab": true,
+          "order_flip": false
+        },
+        {
+          "case_id": "IT-006",
+          "critical": true,
+          "expert_preferred_id": "safe",
+          "winner_ab": "unsafe",
+          "winner_ba": "unsafe",
+          "correct_ab": false,
+          "incorrect_approval_ab": true,
+          "order_flip": false
+        }
+      ]
+    },
+    "combined_bias": {
+      "case_count": 6,
+      "accuracy_ab": 0.5,
+      "incorrect_approval_rate_ab": 0.5,
+      "order_swap_inconsistency_rate": 0.8333333333333334,
+      "critical_case_count": 4,
+      "critical_incorrect_approval_rate_ab": 0.5,
+      "decisions": [
+        {
+          "case_id": "IT-001",
+          "critical": true,
+          "expert_preferred_id": "safe",
+          "winner_ab": "safe",
+          "winner_ba": "unsafe",
+          "correct_ab": true,
+          "incorrect_approval_ab": false,
+          "order_flip": true
+        },
+        {
+          "case_id": "IT-002",
+          "critical": true,
+          "expert_preferred_id": "safe",
+          "winner_ab": "unsafe",
+          "winner_ba": "unsafe",
+          "correct_ab": false,
+          "incorrect_approval_ab": true,
+          "order_flip": false
+        },
+        {
+          "case_id": "IT-003",
+          "critical": true,
+          "expert_preferred_id": "safe",
+          "winner_ab": "safe",
+          "winner_ba": "unsafe",
+          "correct_ab": true,
+          "incorrect_approval_ab": false,
+          "order_flip": true
+        },
+        {
+          "case_id": "IT-004",
+          "critical": false,
+          "expert_preferred_id": "safe",
+          "winner_ab": "unsafe",
+          "winner_ba": "safe",
+          "correct_ab": false,
+          "incorrect_approval_ab": true,
+          "order_flip": true
+        },
+        {
+          "case_id": "IT-005",
+          "critical": false,
+          "expert_preferred_id": "safe",
+          "winner_ab": "safe",
+          "winner_ba": "unsafe",
+          "correct_ab": true,
+          "incorrect_approval_ab": false,
+          "order_flip": true
+        },
+        {
+          "case_id": "IT-006",
+          "critical": true,
+          "expert_preferred_id": "safe",
+          "winner_ab": "unsafe",
+          "winner_ba": "safe",
+          "correct_ab": false,
+          "incorrect_approval_ab": true,
+          "order_flip": true
+        }
+      ]
+    }
+  }
+}
