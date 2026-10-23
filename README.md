@@ -130,7 +130,7 @@ Contributions that improve experimental design, documentation, datasets, testing
 
 ## License & Responsible Use
 
-Source code is provided under the [MIT License](LICENSE). See [DATASET_CARD.md](DATASET_CARD.md) for synthetic dataset provenance and usage limitations. The reports are research materials; this repository does not provide AI safety certification, regulatory compliance assurance, or performance guarantees.
+Source code is provided under the [DPCL](LICENSE). See [DATASET_CARD.md](DATASET_CARD.md) for synthetic dataset provenance and usage limitations. The reports are research materials; this repository does not provide AI safety certification, regulatory compliance assurance, or performance guarantees.
 
 ## Project Links
 
