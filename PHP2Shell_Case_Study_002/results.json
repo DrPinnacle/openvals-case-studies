@@ -1,0 +1,31 @@
+{
+  "run_type": "synthetic offline rules benchmark; NOT OpenVals execution; NOT PHP exploitation test",
+  "cases": 240,
+  "seed": 20261023,
+  "ground_truth_generation": "same public version thresholds and backport verification logic as rules baseline; not independent",
+  "rules_baseline": {
+    "TP": 167,
+    "FP": 0,
+    "FN": 0,
+    "TN": 73,
+    "accuracy": 1.0,
+    "precision_action": 1.0,
+    "recall_action": 1.0,
+    "false_positive_rate": 0.0
+  },
+  "naive_baseline": {
+    "TP": 167,
+    "FP": 7,
+    "FN": 0,
+    "TN": 66,
+    "accuracy": 0.9708,
+    "precision_action": 0.9598,
+    "recall_action": 1.0,
+    "false_positive_rate": 0.0959
+  },
+  "limitations": [
+    "Labels are programmatically derived, causing circularity for rules baseline.",
+    "No AI/LLM model, OpenVals SDK, RedShield, PHP runtime, exploit, telemetry or production system was executed.",
+    "No statistical generalization to real security incidents."
+  ]
+}

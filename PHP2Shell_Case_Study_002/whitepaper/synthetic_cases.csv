@@ -1,0 +1,241 @@
+id,php_version,vendor_backport_claim,backport_evidence,exposure,ground_truth,synthetic,rules_prediction,naive_prediction
+CASE-001,8.2.33,true,verified vendor bulletin,internet-facing,patched,true,patched,requires-action
+CASE-002,8.3.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-003,8.4.25,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-004,8.5.10,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-005,8.1.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-006,8.0.30,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-007,7.4.33,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-008,8.2.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-009,8.3.35,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-010,8.4.26,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-011,8.5.11,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-012,8.1.34,true,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-013,8.0.30,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-014,7.4.33,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-015,8.2.35,false,no bulletin,unknown,patched,true,patched,patched
+CASE-016,8.3.36,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-017,8.4.27,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-018,8.5.12,false,no bulletin,unknown,patched,true,patched,patched
+CASE-019,8.1.34,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-020,8.0.30,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-021,7.4.33,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-022,8.2.36,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-023,8.3.37,true,unverified claim,internal-only,patched,true,patched,patched
+CASE-024,8.4.28,false,no bulletin,unknown,patched,true,patched,patched
+CASE-025,8.5.13,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-026,8.1.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-027,8.0.30,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-028,7.4.33,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-029,8.2.33,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-030,8.3.34,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-031,8.4.25,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-032,8.5.10,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-033,8.1.34,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-034,8.0.30,true,verified vendor bulletin,internet-facing,patched,true,patched,requires-action
+CASE-035,7.4.33,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-036,8.2.34,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-037,8.3.35,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-038,8.4.26,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-039,8.5.11,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-040,8.1.34,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-041,8.0.30,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-042,7.4.33,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-043,8.2.35,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-044,8.3.36,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-045,8.4.27,true,no bulletin,unknown,patched,true,patched,patched
+CASE-046,8.5.12,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-047,8.1.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-048,8.0.30,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-049,7.4.33,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-050,8.2.36,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-051,8.3.37,false,no bulletin,unknown,patched,true,patched,patched
+CASE-052,8.4.28,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-053,8.5.13,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-054,8.1.34,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-055,8.0.30,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-056,7.4.33,true,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-057,8.2.33,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-058,8.3.34,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-059,8.4.25,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-060,8.5.10,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-061,8.1.34,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-062,8.0.30,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-063,7.4.33,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-064,8.2.34,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-065,8.3.35,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-066,8.4.26,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-067,8.5.11,true,verified vendor bulletin,internet-facing,patched,true,patched,requires-action
+CASE-068,8.1.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-069,8.0.30,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-070,7.4.33,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-071,8.2.35,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-072,8.3.36,false,no bulletin,unknown,patched,true,patched,patched
+CASE-073,8.4.27,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-074,8.5.12,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-075,8.1.34,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-076,8.0.30,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-077,7.4.33,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-078,8.2.36,true,no bulletin,unknown,patched,true,patched,patched
+CASE-079,8.3.37,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-080,8.4.28,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-081,8.5.13,false,no bulletin,unknown,patched,true,patched,patched
+CASE-082,8.1.34,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-083,8.0.30,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-084,7.4.33,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-085,8.2.33,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-086,8.3.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-087,8.4.25,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-088,8.5.10,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-089,8.1.34,true,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-090,8.0.30,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-091,7.4.33,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-092,8.2.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-093,8.3.35,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-094,8.4.26,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-095,8.5.11,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-096,8.1.34,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-097,8.0.30,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-098,7.4.33,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-099,8.2.35,false,no bulletin,unknown,patched,true,patched,patched
+CASE-100,8.3.36,true,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-101,8.4.27,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-102,8.5.12,false,no bulletin,unknown,patched,true,patched,patched
+CASE-103,8.1.34,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-104,8.0.30,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-105,7.4.33,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-106,8.2.36,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-107,8.3.37,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-108,8.4.28,false,no bulletin,unknown,patched,true,patched,patched
+CASE-109,8.5.13,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-110,8.1.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-111,8.0.30,true,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-112,7.4.33,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-113,8.2.33,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-114,8.3.34,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-115,8.4.25,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-116,8.5.10,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-117,8.1.34,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-118,8.0.30,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-119,7.4.33,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-120,8.2.34,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-121,8.3.35,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-122,8.4.26,true,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-123,8.5.11,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-124,8.1.34,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-125,8.0.30,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-126,7.4.33,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-127,8.2.35,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-128,8.3.36,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-129,8.4.27,false,no bulletin,unknown,patched,true,patched,patched
+CASE-130,8.5.12,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-131,8.1.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-132,8.0.30,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-133,7.4.33,true,verified vendor bulletin,internet-facing,patched,true,patched,requires-action
+CASE-134,8.2.36,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-135,8.3.37,false,no bulletin,unknown,patched,true,patched,patched
+CASE-136,8.4.28,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-137,8.5.13,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-138,8.1.34,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-139,8.0.30,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-140,7.4.33,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-141,8.2.33,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-142,8.3.34,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-143,8.4.25,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-144,8.5.10,true,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-145,8.1.34,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-146,8.0.30,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-147,7.4.33,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-148,8.2.34,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-149,8.3.35,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-150,8.4.26,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-151,8.5.11,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-152,8.1.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-153,8.0.30,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-154,7.4.33,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-155,8.2.35,true,unverified claim,internal-only,patched,true,patched,patched
+CASE-156,8.3.36,false,no bulletin,unknown,patched,true,patched,patched
+CASE-157,8.4.27,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-158,8.5.12,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-159,8.1.34,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-160,8.0.30,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-161,7.4.33,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-162,8.2.36,false,no bulletin,unknown,patched,true,patched,patched
+CASE-163,8.3.37,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-164,8.4.28,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-165,8.5.13,false,no bulletin,unknown,patched,true,patched,patched
+CASE-166,8.1.34,true,verified vendor bulletin,internet-facing,patched,true,patched,requires-action
+CASE-167,8.0.30,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-168,7.4.33,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-169,8.2.33,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-170,8.3.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-171,8.4.25,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-172,8.5.10,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-173,8.1.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-174,8.0.30,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-175,7.4.33,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-176,8.2.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-177,8.3.35,true,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-178,8.4.26,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-179,8.5.11,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-180,8.1.34,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-181,8.0.30,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-182,7.4.33,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-183,8.2.35,false,no bulletin,unknown,patched,true,patched,patched
+CASE-184,8.3.36,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-185,8.4.27,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-186,8.5.12,false,no bulletin,unknown,patched,true,patched,patched
+CASE-187,8.1.34,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-188,8.0.30,true,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-189,7.4.33,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-190,8.2.36,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-191,8.3.37,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-192,8.4.28,false,no bulletin,unknown,patched,true,patched,patched
+CASE-193,8.5.13,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-194,8.1.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-195,8.0.30,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-196,7.4.33,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-197,8.2.33,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-198,8.3.34,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-199,8.4.25,true,verified vendor bulletin,internet-facing,patched,true,patched,requires-action
+CASE-200,8.5.10,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-201,8.1.34,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-202,8.0.30,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-203,7.4.33,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-204,8.2.34,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-205,8.3.35,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-206,8.4.26,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-207,8.5.11,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-208,8.1.34,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-209,8.0.30,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-210,7.4.33,true,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-211,8.2.35,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-212,8.3.36,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-213,8.4.27,false,no bulletin,unknown,patched,true,patched,patched
+CASE-214,8.5.12,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-215,8.1.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-216,8.0.30,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-217,7.4.33,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-218,8.2.36,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-219,8.3.37,false,no bulletin,unknown,patched,true,patched,patched
+CASE-220,8.4.28,false,verified vendor bulletin,internet-facing,patched,true,patched,patched
+CASE-221,8.5.13,true,unverified claim,internal-only,patched,true,patched,patched
+CASE-222,8.1.34,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-223,8.0.30,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-224,7.4.33,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-225,8.2.33,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-226,8.3.34,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-227,8.4.25,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-228,8.5.10,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-229,8.1.34,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-230,8.0.30,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-231,7.4.33,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-232,8.2.34,true,verified vendor bulletin,internet-facing,patched,true,patched,requires-action
+CASE-233,8.3.35,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-234,8.4.26,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-235,8.5.11,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-236,8.1.34,false,unverified claim,internal-only,requires-action,true,requires-action,requires-action
+CASE-237,8.0.30,false,no bulletin,unknown,requires-action,true,requires-action,requires-action
+CASE-238,7.4.33,false,verified vendor bulletin,internet-facing,requires-action,true,requires-action,requires-action
+CASE-239,8.2.35,false,unverified claim,internal-only,patched,true,patched,patched
+CASE-240,8.3.36,false,no bulletin,unknown,patched,true,patched,patched

@@ -1,0 +1,5 @@
+- S1 PHP official advisory https://www.php.net/archive/2026.php (21 Oct 2026).
+- 2 Wiz research https://www.wiz.io/blog/php2shell-php-rce (21 Oct 2026).
+- 3 Cloudflare https://blog.cloudflare.com/php-vulnerabilities-waf-protection (21 Oct 2026).
+- 4 Red Hat https://access.redhat.com/security/vulnerabilities/RHSB-2026-013 (21 Oct 2026).
+- 5 Plesk https://support.plesk.com/hc/en-us/articles/44397729587351-Vulnerability-CVE-2026-109618-and-CVE-2026-109619-PHP2Shell-Remote-code-execution-in-PHP-shipped-with-Plesk (22 Oct 2026).
