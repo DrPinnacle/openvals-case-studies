@@ -1,6 +1,4 @@
 # OpenVals Case Study 003 — Prompt-Injection Resilience
-
-**Version 1.0 · 31 October 2026 · OpenVals — A DrPinnacle Initiative**  
 Powered by Dr.Pinnacle
 
 ## Abstract and evidence status
@@ -39,4 +37,4 @@ This is standalone research under the OpenVals collection. Actual OpenVals integ
 
 ## Citation
 
-DrPinnacle. (2026). *OpenVals Case Study 003: Prompt-Injection Resilience*, version 1.0. Repository: https://github.com/DrPinnacle/openvals-case-studies (folder `case-study-003-prompt-injection`). Cite the publication commit once pushed; no DOI or peer review is claimed.
+DrPinnacle. (2026). *OpenVals Case Study 003: Prompt-Injection Resilience*, version 1.0. Repository: https://github.com/DrPinnacle/openvals-case-studies (folder `case-study-003-prompt-injection`). Cite the publication commit once pushed.
