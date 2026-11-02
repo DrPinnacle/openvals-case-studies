@@ -42,6 +42,7 @@ OpenVals research examines **what failed, how to measure it, what evidence is av
 |:--|:--|:--|:--|:--|
 | **001** | **Evaluating the Evaluator — LLM-as-a-Judge Reliability** | LLM evaluation, position bias, verbosity bias, incorrect approvals | Synthetic deterministic demonstration; not a real-model or production benchmark | [Study 001](case-studies/001-llm-judge-reliability/) |
 | **002** | **PHP2Shell — Security Incident Analysis** | Cybersecurity, exploit analysis, enterprise assurance | Consult the study's own documentation for verified facts, methodology, and any OpenVals-specific tests | [Study 002](PHP2Shell_Case_Study_002/) |
+| **003** | **Prompt-Injection Resilience** | Prompt-injection evaluation, instruction boundaries, benign task utility | Published v1.0; synthetic simulation with 36 fixtures and three deterministic policies; no empirical LLM or production evidence | [Study 003](case-study-003-prompt-injection/README.md) |
 
 **Future studies:** New research will be listed here **only when published**. Planned work and proposed experiments should be tracked through [Issues](https://github.com/DrPinnacle/openvals-case-studies/issues) rather than represented as completed findings.
 
@@ -56,6 +57,12 @@ Explores how simulated evaluator preferences can affect response selection, incl
 A cybersecurity-focused case study published under `PHP2Shell_Case_Study_002`. Read its primary materials to distinguish **reported incident facts**, **technical hypotheses**, **reproduced observations**, and **potential OpenVals × RedShield assurance applications**. The existence of an incident case study is not evidence that OpenVals detected the exploit.
 
 [Open Case Study 002](PHP2Shell_Case_Study_002/)
+
+### Case Study 003 · Prompt-Injection Resilience
+
+**Published v1.0 — synthetic simulation.** A reproducible offline **prompt-injection evaluation** study examining instruction-boundary failures alongside benign task utility. It uses **36 author-created fixtures** (24 attack cases and 12 benign controls) and three deterministic policies to illustrate a constructed safety–utility tradeoff. Published materials include a runnable Python harness, case-level results, methodology, a dataset card, and technical and enterprise reports. **No empirical LLM, OpenVals product, or production-system effectiveness was measured.**
+
+[Open Case Study 003](case-study-003-prompt-injection/README.md)
 
 ## Getting Started
 
