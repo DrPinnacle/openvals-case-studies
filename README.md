@@ -2,141 +2,149 @@
 
 # OpenVals Case Studies
 
-### Reproducible AI Evaluation, LLM Validation & Enterprise AI Assurance Research
+### Reproducible AI Evaluation, LLM Validation, Cybersecurity Research & Enterprise AI Assurance
 
 **Engineering AI Trust. Measuring Enterprise Value.**
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/Code%20License-MIT-green.svg)](LICENSE)
-[![Research Status](https://img.shields.io/badge/Research-Synthetic%20PoC-orange)](case-studies/001-llm-judge-reliability/)
 [![Organization](https://img.shields.io/badge/Organization-DrPinnacle-172554)](https://github.com/DrPinnacle)
+[![Research](https://img.shields.io/badge/Focus-Evidence--Driven%20Research-0F766E)](#research-standards)
+[![Case Studies](https://img.shields.io/badge/Case%20Studies-001%20%7C%20002-2563EB)](#case-study-index)
+[![Contributions](https://img.shields.io/badge/Contributions-Welcome-64748B)](CONTRIBUTING.md)
 
 **OpenVals — A DrPinnacle Initiative**  
-**Author:** Vishwanath Akuthota — Founder of DrPinnacle, OpenVals and The Foundry's
+**Research lead:** Vishwanath Akuthota — Founder of DrPinnacle, OpenVals and The Foundry's
 
-[Explore Case Study 001](#featured-case-study-001--evaluating-the-evaluator) · [Quick Start](#quick-start) · [Methodology](docs/methodology.md) · [Enterprise Brief](docs/enterprise-brief.md) · [Contribute](CONTRIBUTING.md)
+[Case Studies](#case-study-index) · [Research Standards](#research-standards) · [Getting Started](#getting-started) · [Contributing](#contributing) · [OpenVals Core](https://github.com/vishwanathakuthota/openvals)
 
 </div>
 
 ---
 
-## Overview
+## About This Repository
 
-**OpenVals Case Studies** is a public research repository for reproducible experiments in **AI model evaluation**, **large language model (LLM) validation**, **LLM-as-a-Judge reliability**, **AI benchmarking**, **critical-case detection**, and **enterprise AI assurance**.
+**OpenVals Case Studies** is an evolving, publicly accessible research collection exploring **AI model evaluation, LLM evaluation and validation, AI benchmarking, agentic AI assurance, AI safety, cybersecurity failure analysis, and enterprise AI governance**.
 
-The goal is to turn questions about AI quality, reliability, and trust into explicit research protocols with inspectable datasets, runnable code, documented metrics, and clearly stated limitations.
+Our objective is to turn real-world incidents, research questions, and operational AI risks into **testable hypotheses, transparent methods, inspectable evidence, and practical enterprise lessons**. Each case study is independently scoped; not every study uses the same dataset, programming language, experiment design, or level of empirical validation.
 
-This repository complements the [OpenVals core project](https://github.com/vishwanathakuthota/openvals). Case studies are evidence-building exercises; they are **not** automatically demonstrations of production OpenVals capabilities.
+This repository complements the [OpenVals core project](https://github.com/vishwanathakuthota/openvals). **Publication here does not by itself demonstrate that OpenVals detected, prevented, or mitigated a reported incident.** Product-specific claims must be supported by actual, documented integrations and experiments.
 
-## Why AI Evaluation Needs Evaluation
+## Why This Research Matters
 
-An AI system may generate a fluent answer that is incorrect, unsafe, or unsuitable for an enterprise workflow. The evaluation system used to assess that answer can also introduce errors. For example, an LLM judge may be influenced by **response order** or **verbosity**, rather than the correctness of the underlying response.
+AI systems can fail in ways that conventional benchmarks miss: unreliable evaluation judgments, missed high-severity cases, adversarial inputs, insecure integrations, data leakage, and brittle operational controls. Likewise, cybersecurity incidents can expose gaps in the assumptions underlying AI-enabled workflows.
 
-A credible enterprise evaluation process should examine not just *what an AI model answered*, but also *whether the evaluator's decision is reliable*. This repository explores such questions through controlled experiments, transparent assumptions, and reproducible artifacts.
+OpenVals research examines **what failed, how to measure it, what evidence is available, and what organizations can validate before deployment**. We distinguish historical incident analysis from controlled experiments, simulations, and independently verified product results.
 
-## Featured Case Study 001 — Evaluating the Evaluator
+## Case Study Index
 
-### LLM-as-a-Judge Reliability: Position Bias, Verbosity Bias & Critical-Case Detection
+> **Living index:** Add one row for every newly published study. Keep case-study identifiers stable; use version numbers within each study when its findings evolve. A study's folder README is the source of truth for its methods, evidence, and execution instructions.
 
-**Research question:** Can presentation features change a judge's preference even when an author-defined reference label favors a different answer?
+| ID | Case study | Research area | Evidence / scope | Materials |
+|:--|:--|:--|:--|:--|
+| **001** | **Evaluating the Evaluator — LLM-as-a-Judge Reliability** | LLM evaluation, position bias, verbosity bias, incorrect approvals | Synthetic deterministic demonstration; not a real-model or production benchmark | [Study 001](case-studies/001-llm-judge-reliability/) |
+| **002** | **PHP2Shell — Security Incident Analysis** | Cybersecurity, exploit analysis, enterprise assurance | Consult the study's own documentation for verified facts, methodology, and any OpenVals-specific tests | [Study 002](PHP2Shell_Case_Study_002/) |
 
-| Dimension | What the study examines |
-| --- | --- |
-| **Position bias** | Whether swapping answer order changes the selected response |
-| **Verbosity bias** | Whether response length can influence preference |
-| **Reference-label agreement** | How often decisions match author-assigned preferred responses |
-| **Incorrect approval rate** | How often a non-preferred response is selected |
-| **Critical-case analysis** | How the protocol treats synthetically designated higher-severity cases |
-| **Reproducibility** | Whether the deterministic experiment and tests can be rerun |
+**Future studies:** New research will be listed here **only when published**. Planned work and proposed experiments should be tracked through [Issues](https://github.com/DrPinnacle/openvals-case-studies/issues) rather than represented as completed findings.
 
-**Evidence level: synthetic proof of concept.** Version 1.0 uses **six synthetic IT-support cases** (12 candidate responses) and a **programmed simulated judge**. It does **not** call a real LLM, establish human-expert agreement, evaluate a deployed customer system, or measure production OpenVals performance. The reference labels are author-assigned, not independently adjudicated by domain experts.
+### Case Study 001 · LLM-as-a-Judge Reliability
 
-**Read the materials:**
+Explores how simulated evaluator preferences can affect response selection, including **position bias**, **verbosity bias**, and disagreement with author-assigned reference labels. Its initial evidence is **synthetic**: it does not establish the behavior of a real LLM judge or the measured performance of the OpenVals platform.
 
-- [Experiment and dataset](case-studies/001-llm-judge-reliability/)
-- [Detailed research methodology](docs/methodology.md)
-- [Dataset card and limitations](DATASET_CARD.md)
-- [Enterprise interpretation and pilot criteria](docs/enterprise-brief.md)
-- [Printable research report (PDF)](reports/OpenVals_Case_Study_001.pdf)
-- [Editable research report (Word)](reports/OpenVals_Case_Study_001.docx)
-- [Example generated results (JSON)](reports/results.json)
+[Open Case Study 001](case-studies/001-llm-judge-reliability/) · [Dataset card](DATASET_CARD.md) · [Methodology](docs/methodology.md)
 
-> **Scientific integrity:** Synthetic results illustrate how a test protocol behaves under programmed assumptions. They must not be presented as measured detection rates, risk reductions, ROI, or validated OpenVals product claims.
+### Case Study 002 · PHP2Shell
 
-## Quick Start
+A cybersecurity-focused case study published under `PHP2Shell_Case_Study_002`. Read its primary materials to distinguish **reported incident facts**, **technical hypotheses**, **reproduced observations**, and **potential OpenVals × RedShield assurance applications**. The existence of an incident case study is not evidence that OpenVals detected the exploit.
 
-**Requirements:** Python 3.10+; no external dependencies for Case Study 001.
+[Open Case Study 002](PHP2Shell_Case_Study_002/)
+
+## Getting Started
+
+Clone the research repository:
 
 ```bash
 git clone https://github.com/DrPinnacle/openvals-case-studies.git
 cd openvals-case-studies
-
-# Run the deterministic demonstration and generate its JSON report
-python3 case-studies/001-llm-judge-reliability/experiment.py --output reports/results.json
-
-# Run the regression tests
-python3 -m unittest discover -s tests -v
 ```
 
-The experiment prints a JSON summary and writes the requested output file. Re-running it should reproduce the same deterministic outputs for the same code and dataset. Inspect the [methodology](docs/methodology.md) before interpreting metrics.
+Choose a case study from the [index](#case-study-index) and follow **that study's README** for prerequisites, datasets, commands, and reproducibility instructions. Different studies may require different tools or have no executable code.
 
-## Repository Structure
+For Case Study 001, see its documented experiment and test commands before running; do not assume commands or dependencies are shared across studies.
+
+## Repository Organization
+
+The repository is a **collection of independent studies**, not a single application. Existing and future folders may differ in structure:
 
 ```text
 openvals-case-studies/
-├── README.md
-├── LICENSE
-├── CONTRIBUTING.md
-├── DATASET_CARD.md
+├── README.md                         # This living index and repository charter
+├── CONTRIBUTING.md                   # Contribution guidance (where present)
 ├── case-studies/
-│   └── 001-llm-judge-reliability/
-│       ├── experiment.py
-│       └── test_cases.json
-├── docs/
-│   ├── methodology.md
-│   └── enterprise-brief.md
-├── reports/
-│   ├── results.json
-│   ├── OpenVals_Case_Study_001.pdf
-│   └── OpenVals_Case_Study_001.docx
-└── tests/
-    └── test_case001.py
+│   └── 001-llm-judge-reliability/    # Case Study 001
+├── PHP2Shell_Case_Study_002/         # Case Study 002
+├── docs/                             # Shared methods and guidance (where present)
+├── reports/                          # Published research outputs (where present)
+└── tests/                            # Shared automated checks (where present)
 ```
 
-## Research Principles
+**Recommended convention for each new study** (not a claim that all existing studies already follow it):
 
-1. **Reproducibility first:** Publish runnable methods, input provenance, and enough configuration detail to replicate the analysis.
-2. **Separate evidence from aspiration:** Label synthetic simulations, prototypes, real-model experiments, and independently validated findings distinctly.
-3. **Evaluate the evaluator:** Test sensitivity to ordering, presentation, rubric changes, and disagreement with trusted references.
-4. **Report failure modes:** Include incorrect approvals, missed critical cases, uncertainty, and study limitations—not only aggregate scores.
-5. **Protect enterprise data:** Do not commit secrets, customer data, or restricted materials without explicit authorization.
+```text
+<CASE_ID>-<short-slug>/
+├── README.md             # Abstract, research questions, evidence status
+├── methodology.md        # Study design, assumptions, metrics, limitations
+├── data/                 # Licensed, de-identified, or synthetic inputs
+├── experiments/          # Reproducible scripts/notebooks, if applicable
+├── results/              # Outputs and provenance, if applicable
+└── references.md         # Primary sources and relevant literature
+```
 
-## Roadmap (Proposed — Not Yet Implemented)
+## Research Standards
 
-- **Case Study 002:** Critical-case detection and false-negative analysis
-- **Case Study 003:** Prompt injection and adversarial resilience evaluation
-- **Case Study 004:** Enterprise AI reliability and consistency testing
-- **Case Study 005:** AI model benchmarking across quality, latency, and cost
+Every study should aim to document:
 
-Future real-model experiments should pin model and evaluator versions, define rubrics before testing, obtain blinded domain-expert annotations, balance answer order, report confidence intervals, and preserve run manifests. Integration with the live OpenVals evaluation engine remains a separate validation milestone.
+1. **Research question and scope** — a precise problem statement and intended audience.
+2. **Evidence classification** — incident review, synthetic simulation, controlled real-model experiment, or independently validated field finding.
+3. **Sources and provenance** — original reporting, datasets, licenses, model versions, configurations, and dates where relevant.
+4. **Methodology and reproducibility** — steps, assumptions, controls, evaluation metrics, and runnable artifacts when possible.
+5. **Results and uncertainty** — observations separated from interpretations; report false negatives, counterexamples, confidence intervals, or other relevant caveats.
+6. **Enterprise relevance** — practical risk implications, potential controls, and what would need testing before deployment.
+7. **Limitations and responsible disclosure** — no unsubstantiated detection claims, exposed secrets, unauthorized targets, or operationally harmful exploit instructions.
 
-## Who This Repository Is For
+### Evidence Labels
 
-AI/ML engineers, evaluation researchers, enterprise architects, AI governance and risk teams, CIOs, CTOs, CAIOs, CISOs, and organizations designing evidence-based AI deployment gates.
+| Label | Meaning |
+|---|---|
+| **Incident analysis** | Interpretation of reported events and available technical evidence; not necessarily reproduced. |
+| **Synthetic demonstration** | Programmed or generated scenarios illustrating a methodology; not production evidence. |
+| **Controlled experiment** | Documented measurements under specified conditions; generalization requires care. |
+| **Field-validated finding** | Observations supported by a defined real-world evaluation and documented constraints. |
+| **Proposed application** | An idea for how OpenVals or related tooling might help; not a demonstrated capability. |
+
+## How OpenVals Fits
+
+OpenVals is positioned around **evaluation, validation, benchmarking, and assurance** for enterprise AI. Research in this repository can inform test design and potential platform integrations, but the relationship between a case study and the live product must be explicitly stated in that study.
+
+For security-oriented investigations, **OpenVals × RedShield** may be discussed as a *proposed assurance approach*. Any claims of prevention, exploit detection, safety improvement, compliance, or ROI require independently inspectable supporting evidence.
+
+## Who This Is For
+
+AI/ML engineers, security researchers, enterprise architects, AI governance and risk teams, developers of agentic systems, CISOs, CIOs, CTOs, CAIOs, researchers, and technical decision-makers seeking evidence-based assurance methods.
 
 ## Contributing
 
-Contributions that improve experimental design, documentation, datasets, testing, or reproducibility are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request. For research questions or proposed case studies, use the repository's **Issues** tab.
+We welcome improvements to research design, source verification, datasets, reproducibility, documentation, and tests. Please review [CONTRIBUTING.md](CONTRIBUTING.md) if present, or open an [Issue](https://github.com/DrPinnacle/openvals-case-studies/issues) to propose a study or correction. Do not submit confidential customer data, credentials, or unapproved exploit material.
 
-## License & Responsible Use
+**Maintainers:** When publishing a new study, update only the **Case Study Index**, add a concise summary section if helpful, and ensure the study has its own standalone README. Keep this root README focused on discovery, principles, and navigation.
 
-Source code is provided under the [DPCL](LICENSE). See [DATASET_CARD.md](DATASET_CARD.md) for synthetic dataset provenance and usage limitations. The reports are research materials; this repository does not provide AI safety certification, regulatory compliance assurance, or performance guarantees.
+## Licensing and Responsible Use
+
+Check the repository's [LICENSE](LICENSE) and any **study-specific licenses or notices** before reusing code, datasets, images, or reports. Different artifacts may carry different terms. Research is provided for education and validation; it is **not** a certification of safety, security, regulatory compliance, or incident prevention.
 
 ## Project Links
 
-- **Case studies:** [DrPinnacle/openvals-case-studies](https://github.com/DrPinnacle/openvals-case-studies)
+- **Research repository:** [DrPinnacle/openvals-case-studies](https://github.com/DrPinnacle/openvals-case-studies)
 - **OpenVals core:** [vishwanathakuthota/openvals](https://github.com/vishwanathakuthota/openvals)
-- **DrPinnacle organization:** [github.com/DrPinnacle](https://github.com/DrPinnacle)
+- **DrPinnacle GitHub:** [DrPinnacle](https://github.com/DrPinnacle)
 
 ---
 
