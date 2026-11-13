@@ -1,4 +1,4 @@
-# Dr.Pinnacle Community Edition License (DPCL-CE) v1.0
+# Dr.Pinnacle Community Edition License (DPCL-CE).
 
 Copyright (c) 2026 Dr.Pinnacle
 
