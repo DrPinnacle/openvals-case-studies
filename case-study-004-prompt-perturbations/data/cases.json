@@ -1,0 +1,410 @@
+[
+  {
+    "id": "item-01",
+    "family": "inventory",
+    "options": [
+      "10",
+      "13",
+      "5",
+      "11"
+    ],
+    "answer": "A",
+    "rationale": "5 + 2 × 4 − 3 = 10",
+    "prompts": {
+      "baseline": "A store has 5 loose bolts and 2 boxes containing 4 bolts each. It ships 3 bolts. How many remain?\nA. 10\nB. 13\nC. 5\nD. 11\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "After sending out 3 bolts, how many bolts are left from a stock of 2 boxes of 4 bolts apiece plus 5 loose bolts?\nA. 10\nB. 13\nC. 5\nD. 11\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "A store has 5 loose bolts and 2 boxes containing 4 bolts each. It ships 3 bolts. How many remain?\n\nA. 10 | B. 13 | C. 5 | D. 11\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-02",
+    "family": "threshold",
+    "options": [
+      "Allow",
+      "Too low",
+      "Too high",
+      "Unknown"
+    ],
+    "answer": "B",
+    "rationale": "10 <= 9 < 16 is False. Classification: Too low.",
+    "prompts": {
+      "baseline": "A gate allows scores from 10 inclusive to 16 exclusive. Classify the score 9 as Allow, Too low, or Too high.\nA. Allow\nB. Too low\nC. Too high\nD. Unknown\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "For a score of 9, choose its gate classification. The minimum allowed score is 10, and scores of 16 and above are too high.\nA. Allow\nB. Too low\nC. Too high\nD. Unknown\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "A gate allows scores from 10 inclusive to 16 exclusive. Classify the score 9 as Allow, Too low, or Too high.\n\nA. Allow | B. Too low | C. Too high | D. Unknown\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-03",
+    "family": "ordering",
+    "options": [
+      "Ari",
+      "Cy",
+      "Bo",
+      "Dee"
+    ],
+    "answer": "C",
+    "rationale": "Ari < Bo < Cy < Dee",
+    "prompts": {
+      "baseline": "Four people finish a race with no ties. Cy finishes before Dee. Ari finishes before Bo. Bo finishes before Cy. Who finishes second?\nA. Ari\nB. Cy\nC. Bo\nD. Dee\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "Who is in place 2 in a four-person race with distinct finish positions? Dee trails Cy, Cy trails Bo, and Bo trails Ari.\nA. Ari\nB. Cy\nC. Bo\nD. Dee\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "Four people finish a race with no ties. Cy finishes before Dee. Ari finishes before Bo. Bo finishes before Cy. Who finishes second?\n\nA. Ari | B. Cy | C. Bo | D. Dee\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-04",
+    "family": "inventory",
+    "options": [
+      "21",
+      "10",
+      "17",
+      "16"
+    ],
+    "answer": "D",
+    "rationale": "6 + 3 × 5 − 5 = 16",
+    "prompts": {
+      "baseline": "A store has 6 loose bolts and 3 boxes containing 5 bolts each. It ships 5 bolts. How many remain?\nA. 21\nB. 10\nC. 17\nD. 16\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "After sending out 5 bolts, how many bolts are left from a stock of 3 boxes of 5 bolts apiece plus 6 loose bolts?\nA. 21\nB. 10\nC. 17\nD. 16\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "A store has 6 loose bolts and 3 boxes containing 5 bolts each. It ships 5 bolts. How many remain?\n\nA. 21 | B. 10 | C. 17 | D. 16\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-05",
+    "family": "threshold",
+    "options": [
+      "Allow",
+      "Too low",
+      "Too high",
+      "Unknown"
+    ],
+    "answer": "A",
+    "rationale": "11 <= 11 < 18 is True. Classification: Allow.",
+    "prompts": {
+      "baseline": "A gate allows scores from 11 inclusive to 18 exclusive. Classify the score 11 as Allow, Too low, or Too high.\nA. Allow\nB. Too low\nC. Too high\nD. Unknown\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "For a score of 11, choose its gate classification. The minimum allowed score is 11, and scores of 18 and above are too high.\nA. Allow\nB. Too low\nC. Too high\nD. Unknown\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "A gate allows scores from 11 inclusive to 18 exclusive. Classify the score 11 as Allow, Too low, or Too high.\n\nA. Allow | B. Too low | C. Too high | D. Unknown\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-06",
+    "family": "ordering",
+    "options": [
+      "Ari",
+      "Dee",
+      "Bo",
+      "Cy"
+    ],
+    "answer": "B",
+    "rationale": "Bo < Cy < Dee < Ari",
+    "prompts": {
+      "baseline": "Four people finish a race with no ties. Dee finishes before Ari. Bo finishes before Cy. Cy finishes before Dee. Who finishes third?\nA. Ari\nB. Dee\nC. Bo\nD. Cy\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "Who is in place 3 in a four-person race with distinct finish positions? Ari trails Dee, Dee trails Cy, and Cy trails Bo.\nA. Ari\nB. Dee\nC. Bo\nD. Cy\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "Four people finish a race with no ties. Dee finishes before Ari. Bo finishes before Cy. Cy finishes before Dee. Who finishes third?\n\nA. Ari | B. Dee | C. Bo | D. Cy\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-07",
+    "family": "inventory",
+    "options": [
+      "31",
+      "17",
+      "24",
+      "25"
+    ],
+    "answer": "C",
+    "rationale": "7 + 4 × 6 − 7 = 24",
+    "prompts": {
+      "baseline": "A store has 7 loose bolts and 4 boxes containing 6 bolts each. It ships 7 bolts. How many remain?\nA. 31\nB. 17\nC. 24\nD. 25\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "After sending out 7 bolts, how many bolts are left from a stock of 4 boxes of 6 bolts apiece plus 7 loose bolts?\nA. 31\nB. 17\nC. 24\nD. 25\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "A store has 7 loose bolts and 4 boxes containing 6 bolts each. It ships 7 bolts. How many remain?\n\nA. 31 | B. 17 | C. 24 | D. 25\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-08",
+    "family": "threshold",
+    "options": [
+      "Too low",
+      "Too high",
+      "Unknown",
+      "Allow"
+    ],
+    "answer": "D",
+    "rationale": "12 <= 19 < 20 is True. Classification: Allow.",
+    "prompts": {
+      "baseline": "A gate allows scores from 12 inclusive to 20 exclusive. Classify the score 19 as Allow, Too low, or Too high.\nA. Too low\nB. Too high\nC. Unknown\nD. Allow\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "For a score of 19, choose its gate classification. The minimum allowed score is 12, and scores of 20 and above are too high.\nA. Too low\nB. Too high\nC. Unknown\nD. Allow\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "A gate allows scores from 12 inclusive to 20 exclusive. Classify the score 19 as Allow, Too low, or Too high.\n\nA. Too low | B. Too high | C. Unknown | D. Allow\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-09",
+    "family": "ordering",
+    "options": [
+      "Dee",
+      "Ari",
+      "Bo",
+      "Cy"
+    ],
+    "answer": "A",
+    "rationale": "Cy < Dee < Ari < Bo",
+    "prompts": {
+      "baseline": "Four people finish a race with no ties. Ari finishes before Bo. Cy finishes before Dee. Dee finishes before Ari. Who finishes second?\nA. Dee\nB. Ari\nC. Bo\nD. Cy\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "Who is in place 2 in a four-person race with distinct finish positions? Bo trails Ari, Ari trails Dee, and Dee trails Cy.\nA. Dee\nB. Ari\nC. Bo\nD. Cy\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "Four people finish a race with no ties. Ari finishes before Bo. Cy finishes before Dee. Dee finishes before Ari. Who finishes second?\n\nA. Dee | B. Ari | C. Bo | D. Cy\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-10",
+    "family": "inventory",
+    "options": [
+      "22",
+      "13",
+      "5",
+      "14"
+    ],
+    "answer": "B",
+    "rationale": "8 + 2 × 7 − 9 = 13",
+    "prompts": {
+      "baseline": "A store has 8 loose bolts and 2 boxes containing 7 bolts each. It ships 9 bolts. How many remain?\nA. 22\nB. 13\nC. 5\nD. 14\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "After sending out 9 bolts, how many bolts are left from a stock of 2 boxes of 7 bolts apiece plus 8 loose bolts?\nA. 22\nB. 13\nC. 5\nD. 14\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "A store has 8 loose bolts and 2 boxes containing 7 bolts each. It ships 9 bolts. How many remain?\n\nA. 22 | B. 13 | C. 5 | D. 14\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-11",
+    "family": "threshold",
+    "options": [
+      "Allow",
+      "Too low",
+      "Too high",
+      "Unknown"
+    ],
+    "answer": "C",
+    "rationale": "13 <= 22 < 22 is False. Classification: Too high.",
+    "prompts": {
+      "baseline": "A gate allows scores from 13 inclusive to 22 exclusive. Classify the score 22 as Allow, Too low, or Too high.\nA. Allow\nB. Too low\nC. Too high\nD. Unknown\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "For a score of 22, choose its gate classification. The minimum allowed score is 13, and scores of 22 and above are too high.\nA. Allow\nB. Too low\nC. Too high\nD. Unknown\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "A gate allows scores from 13 inclusive to 22 exclusive. Classify the score 22 as Allow, Too low, or Too high.\n\nA. Allow | B. Too low | C. Too high | D. Unknown\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-12",
+    "family": "ordering",
+    "options": [
+      "Ari",
+      "Cy",
+      "Dee",
+      "Bo"
+    ],
+    "answer": "D",
+    "rationale": "Dee < Ari < Bo < Cy",
+    "prompts": {
+      "baseline": "Four people finish a race with no ties. Bo finishes before Cy. Dee finishes before Ari. Ari finishes before Bo. Who finishes third?\nA. Ari\nB. Cy\nC. Dee\nD. Bo\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "Who is in place 3 in a four-person race with distinct finish positions? Cy trails Bo, Bo trails Ari, and Ari trails Dee.\nA. Ari\nB. Cy\nC. Dee\nD. Bo\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "Four people finish a race with no ties. Bo finishes before Cy. Dee finishes before Ari. Ari finishes before Bo. Who finishes third?\n\nA. Ari | B. Cy | C. Dee | D. Bo\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-13",
+    "family": "inventory",
+    "options": [
+      "22",
+      "33",
+      "13",
+      "23"
+    ],
+    "answer": "A",
+    "rationale": "9 + 3 × 8 − 11 = 22",
+    "prompts": {
+      "baseline": "A store has 9 loose bolts and 3 boxes containing 8 bolts each. It ships 11 bolts. How many remain?\nA. 22\nB. 33\nC. 13\nD. 23\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "After sending out 11 bolts, how many bolts are left from a stock of 3 boxes of 8 bolts apiece plus 9 loose bolts?\nA. 22\nB. 33\nC. 13\nD. 23\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "A store has 9 loose bolts and 3 boxes containing 8 bolts each. It ships 11 bolts. How many remain?\n\nA. 22 | B. 33 | C. 13 | D. 23\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-14",
+    "family": "threshold",
+    "options": [
+      "Allow",
+      "Too low",
+      "Too high",
+      "Unknown"
+    ],
+    "answer": "B",
+    "rationale": "14 <= 13 < 24 is False. Classification: Too low.",
+    "prompts": {
+      "baseline": "A gate allows scores from 14 inclusive to 24 exclusive. Classify the score 13 as Allow, Too low, or Too high.\nA. Allow\nB. Too low\nC. Too high\nD. Unknown\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "For a score of 13, choose its gate classification. The minimum allowed score is 14, and scores of 24 and above are too high.\nA. Allow\nB. Too low\nC. Too high\nD. Unknown\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "A gate allows scores from 14 inclusive to 24 exclusive. Classify the score 13 as Allow, Too low, or Too high.\n\nA. Allow | B. Too low | C. Too high | D. Unknown\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-15",
+    "family": "ordering",
+    "options": [
+      "Ari",
+      "Cy",
+      "Bo",
+      "Dee"
+    ],
+    "answer": "C",
+    "rationale": "Ari < Bo < Cy < Dee",
+    "prompts": {
+      "baseline": "Four people finish a race with no ties. Cy finishes before Dee. Ari finishes before Bo. Bo finishes before Cy. Who finishes second?\nA. Ari\nB. Cy\nC. Bo\nD. Dee\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "Who is in place 2 in a four-person race with distinct finish positions? Dee trails Cy, Cy trails Bo, and Bo trails Ari.\nA. Ari\nB. Cy\nC. Bo\nD. Dee\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "Four people finish a race with no ties. Cy finishes before Dee. Ari finishes before Bo. Bo finishes before Cy. Who finishes second?\n\nA. Ari | B. Cy | C. Bo | D. Dee\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-16",
+    "family": "inventory",
+    "options": [
+      "46",
+      "23",
+      "34",
+      "33"
+    ],
+    "answer": "D",
+    "rationale": "10 + 4 × 9 − 13 = 33",
+    "prompts": {
+      "baseline": "A store has 10 loose bolts and 4 boxes containing 9 bolts each. It ships 13 bolts. How many remain?\nA. 46\nB. 23\nC. 34\nD. 33\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "After sending out 13 bolts, how many bolts are left from a stock of 4 boxes of 9 bolts apiece plus 10 loose bolts?\nA. 46\nB. 23\nC. 34\nD. 33\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "A store has 10 loose bolts and 4 boxes containing 9 bolts each. It ships 13 bolts. How many remain?\n\nA. 46 | B. 23 | C. 34 | D. 33\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-17",
+    "family": "threshold",
+    "options": [
+      "Allow",
+      "Too low",
+      "Too high",
+      "Unknown"
+    ],
+    "answer": "A",
+    "rationale": "15 <= 15 < 26 is True. Classification: Allow.",
+    "prompts": {
+      "baseline": "A gate allows scores from 15 inclusive to 26 exclusive. Classify the score 15 as Allow, Too low, or Too high.\nA. Allow\nB. Too low\nC. Too high\nD. Unknown\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "For a score of 15, choose its gate classification. The minimum allowed score is 15, and scores of 26 and above are too high.\nA. Allow\nB. Too low\nC. Too high\nD. Unknown\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "A gate allows scores from 15 inclusive to 26 exclusive. Classify the score 15 as Allow, Too low, or Too high.\n\nA. Allow | B. Too low | C. Too high | D. Unknown\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-18",
+    "family": "ordering",
+    "options": [
+      "Ari",
+      "Dee",
+      "Bo",
+      "Cy"
+    ],
+    "answer": "B",
+    "rationale": "Bo < Cy < Dee < Ari",
+    "prompts": {
+      "baseline": "Four people finish a race with no ties. Dee finishes before Ari. Bo finishes before Cy. Cy finishes before Dee. Who finishes third?\nA. Ari\nB. Dee\nC. Bo\nD. Cy\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "Who is in place 3 in a four-person race with distinct finish positions? Ari trails Dee, Dee trails Cy, and Cy trails Bo.\nA. Ari\nB. Dee\nC. Bo\nD. Cy\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "Four people finish a race with no ties. Dee finishes before Ari. Bo finishes before Cy. Cy finishes before Dee. Who finishes third?\n\nA. Ari | B. Dee | C. Bo | D. Cy\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-19",
+    "family": "inventory",
+    "options": [
+      "31",
+      "5",
+      "16",
+      "17"
+    ],
+    "answer": "C",
+    "rationale": "11 + 2 × 10 − 15 = 16",
+    "prompts": {
+      "baseline": "A store has 11 loose bolts and 2 boxes containing 10 bolts each. It ships 15 bolts. How many remain?\nA. 31\nB. 5\nC. 16\nD. 17\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "After sending out 15 bolts, how many bolts are left from a stock of 2 boxes of 10 bolts apiece plus 11 loose bolts?\nA. 31\nB. 5\nC. 16\nD. 17\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "A store has 11 loose bolts and 2 boxes containing 10 bolts each. It ships 15 bolts. How many remain?\n\nA. 31 | B. 5 | C. 16 | D. 17\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-20",
+    "family": "threshold",
+    "options": [
+      "Too low",
+      "Too high",
+      "Unknown",
+      "Allow"
+    ],
+    "answer": "D",
+    "rationale": "16 <= 27 < 28 is True. Classification: Allow.",
+    "prompts": {
+      "baseline": "A gate allows scores from 16 inclusive to 28 exclusive. Classify the score 27 as Allow, Too low, or Too high.\nA. Too low\nB. Too high\nC. Unknown\nD. Allow\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "For a score of 27, choose its gate classification. The minimum allowed score is 16, and scores of 28 and above are too high.\nA. Too low\nB. Too high\nC. Unknown\nD. Allow\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "A gate allows scores from 16 inclusive to 28 exclusive. Classify the score 27 as Allow, Too low, or Too high.\n\nA. Too low | B. Too high | C. Unknown | D. Allow\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-21",
+    "family": "ordering",
+    "options": [
+      "Dee",
+      "Ari",
+      "Bo",
+      "Cy"
+    ],
+    "answer": "A",
+    "rationale": "Cy < Dee < Ari < Bo",
+    "prompts": {
+      "baseline": "Four people finish a race with no ties. Ari finishes before Bo. Cy finishes before Dee. Dee finishes before Ari. Who finishes second?\nA. Dee\nB. Ari\nC. Bo\nD. Cy\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "Who is in place 2 in a four-person race with distinct finish positions? Bo trails Ari, Ari trails Dee, and Dee trails Cy.\nA. Dee\nB. Ari\nC. Bo\nD. Cy\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "Four people finish a race with no ties. Ari finishes before Bo. Cy finishes before Dee. Dee finishes before Ari. Who finishes second?\n\nA. Dee | B. Ari | C. Bo | D. Cy\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-22",
+    "family": "inventory",
+    "options": [
+      "45",
+      "28",
+      "16",
+      "29"
+    ],
+    "answer": "B",
+    "rationale": "12 + 3 × 11 − 17 = 28",
+    "prompts": {
+      "baseline": "A store has 12 loose bolts and 3 boxes containing 11 bolts each. It ships 17 bolts. How many remain?\nA. 45\nB. 28\nC. 16\nD. 29\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "After sending out 17 bolts, how many bolts are left from a stock of 3 boxes of 11 bolts apiece plus 12 loose bolts?\nA. 45\nB. 28\nC. 16\nD. 29\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "A store has 12 loose bolts and 3 boxes containing 11 bolts each. It ships 17 bolts. How many remain?\n\nA. 45 | B. 28 | C. 16 | D. 29\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-23",
+    "family": "threshold",
+    "options": [
+      "Allow",
+      "Too low",
+      "Too high",
+      "Unknown"
+    ],
+    "answer": "C",
+    "rationale": "17 <= 30 < 30 is False. Classification: Too high.",
+    "prompts": {
+      "baseline": "A gate allows scores from 17 inclusive to 30 exclusive. Classify the score 30 as Allow, Too low, or Too high.\nA. Allow\nB. Too low\nC. Too high\nD. Unknown\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "For a score of 30, choose its gate classification. The minimum allowed score is 17, and scores of 30 and above are too high.\nA. Allow\nB. Too low\nC. Too high\nD. Unknown\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "A gate allows scores from 17 inclusive to 30 exclusive. Classify the score 30 as Allow, Too low, or Too high.\n\nA. Allow | B. Too low | C. Too high | D. Unknown\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  },
+  {
+    "id": "item-24",
+    "family": "ordering",
+    "options": [
+      "Ari",
+      "Cy",
+      "Dee",
+      "Bo"
+    ],
+    "answer": "D",
+    "rationale": "Dee < Ari < Bo < Cy",
+    "prompts": {
+      "baseline": "Four people finish a race with no ties. Bo finishes before Cy. Dee finishes before Ari. Ari finishes before Bo. Who finishes third?\nA. Ari\nB. Cy\nC. Dee\nD. Bo\nReply with exactly one option letter (A, B, C, or D).",
+      "paraphrase": "Who is in place 3 in a four-person race with distinct finish positions? Cy trails Bo, Bo trails Ari, and Ari trails Dee.\nA. Ari\nB. Cy\nC. Dee\nD. Bo\nReply with exactly one option letter (A, B, C, or D).",
+      "layout": "Four people finish a race with no ties. Bo finishes before Cy. Dee finishes before Ari. Ari finishes before Bo. Who finishes third?\n\nA. Ari | B. Cy | C. Dee | D. Bo\n\nReply with exactly one option letter (A, B, C, or D)."
+    }
+  }
+]

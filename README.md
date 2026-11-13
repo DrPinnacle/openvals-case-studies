@@ -40,9 +40,10 @@ OpenVals research examines **what failed, how to measure it, what evidence is av
 
 | ID | Case study | Research area | Evidence / scope | Materials |
 |:--|:--|:--|:--|:--|
-| **001** | **Evaluating the Evaluator — LLM-as-a-Judge Reliability** | LLM evaluation, position bias, verbosity bias, incorrect approvals | Synthetic deterministic demonstration; not a real-model or production benchmark | [Study 001](case-studies/001-llm-judge-reliability/) |
+| **001** | **Evaluating the Evaluator — LLM-as-a-Judge Reliability** | LLM evaluation, position bias, verbosity bias, incorrect approvals | Synthetic deterministic demonstration; not a real-model or production benchmark | [Study 001](case-study-001/README.md) |
 | **002** | **PHP2Shell — Security Incident Analysis** | Cybersecurity, exploit analysis, enterprise assurance | Consult the study's own documentation for verified facts, methodology, and any OpenVals-specific tests | [Study 002](PHP2Shell_Case_Study_002/) |
 | **003** | **Prompt-Injection Resilience** | Prompt-injection evaluation, instruction boundaries, benign task utility | Published v1.0; synthetic simulation with 36 fixtures and three deterministic policies; no empirical LLM or production evidence | [Study 003](case-study-003-prompt-injection/README.md) |
+| **004** | **LLM Reliability Under Meaning-Preserving Prompt Perturbations** | Prompt robustness, repeated-run reliability, structured output | Controlled local-model experiments on Qwen3-4B and Mistral. Commercial cohort not run. | [Study 004](case-study-004-prompt-perturbations/README.md) |
 
 **Future studies:** New research will be listed here **only when published**. Planned work and proposed experiments should be tracked through [Issues](https://github.com/DrPinnacle/openvals-case-studies/issues) rather than represented as completed findings.
 
@@ -50,7 +51,7 @@ OpenVals research examines **what failed, how to measure it, what evidence is av
 
 Explores how simulated evaluator preferences can affect response selection, including **position bias**, **verbosity bias**, and disagreement with author-assigned reference labels. Its initial evidence is **synthetic**: it does not establish the behavior of a real LLM judge or the measured performance of the OpenVals platform.
 
-[Open Case Study 001](case-studies/001-llm-judge-reliability/) · [Dataset card](DATASET_CARD.md) · [Methodology](docs/methodology.md)
+[Open Case Study 001](case-study-001/README.md) · [Dataset card](case-study-001/DATASET_CARD.md) · [Methodology](case-study-001/docs/methodology.md)
 
 ### Case Study 002 · PHP2Shell
 
@@ -63,6 +64,12 @@ A cybersecurity-focused case study published under `PHP2Shell_Case_Study_002`. R
 **Published v1.0 — synthetic simulation.** A reproducible offline **prompt-injection evaluation** study examining instruction-boundary failures alongside benign task utility. It uses **36 author-created fixtures** (24 attack cases and 12 benign controls) and three deterministic policies to illustrate a constructed safety–utility tradeoff. Published materials include a runnable Python harness, case-level results, methodology, a dataset card, and technical and enterprise reports. **No empirical LLM, OpenVals product, or production-system effectiveness was measured.**
 
 [Open Case Study 003](case-study-003-prompt-injection/README.md)
+
+### Case Study 004 · LLM Reliability Under Prompt Perturbations
+
+Measures whether Qwen3-4B and Mistral select the same correct answer when questions are paraphrased or reformatted. The release includes an unconstrained pilot, a structured-output follow-up, raw responses, and reproducible scoring. The commercial cohort is marked **not run**.
+
+[Open Case Study 004](case-study-004-prompt-perturbations/README.md)
 
 ## Getting Started
 
@@ -145,7 +152,7 @@ We welcome improvements to research design, source verification, datasets, repro
 
 ## Licensing and Responsible Use
 
-Check the repository's [LICENSE](LICENSE) and any **study-specific licenses or notices** before reusing code, datasets, images, or reports. Different artifacts may carry different terms. Research is provided for education and validation; it is **not** a certification of safety, security, regulatory compliance, or incident prevention.
+Check the repository's [DPCL-CE terms](DPCL.rtf) and any **study-specific licenses or notices** before reusing code, datasets, images, or reports. Different artifacts may carry different terms. Research is provided for education and validation; it is **not** a certification of safety, security, regulatory compliance, or incident prevention.
 
 ## Project Links
 

@@ -1,0 +1,10 @@
+{
+  "schema": 1,
+  "cohorts": [
+    {"id": "local-open-weight", "status": "run", "models": ["qwen3:4b", "mistral:latest"],
+     "evidence": ["qwen3-4b", "mistral", "qwen3-4b-pilot", "mistral-pilot"]},
+    {"id": "commercial-hosted", "status": "not_run", "models": [],
+     "reason": "No configured commercial model API credential was available. No commercial requests or scores are included.",
+     "adapter": "anthropic"}
+  ]
+}

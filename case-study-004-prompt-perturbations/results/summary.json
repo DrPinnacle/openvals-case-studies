@@ -1,0 +1,4653 @@
+{
+  "schema": 1,
+  "runs": [
+    {
+      "protocol": "constrained",
+      "provider": "ollama",
+      "model": "qwen3:4b",
+      "observed_models": [
+        "qwen3:4b"
+      ],
+      "items": 24,
+      "attempts": 144,
+      "correct": 54,
+      "all_six_correct": {
+        "count": 5,
+        "denominator": 24
+      },
+      "failures_by_type": {
+        "request_error": 0,
+        "format_error": 0,
+        "wrong_option": 90
+      },
+      "stop_reasons": {
+        "stop": 144
+      },
+      "failure_rows": [
+        {
+          "sequence": 1,
+          "item": "item-21",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 2,
+          "item": "item-10",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 3,
+          "item": "item-01",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 5,
+          "item": "item-12",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 7,
+          "item": "item-10",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 8,
+          "item": "item-18",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 10,
+          "item": "item-18",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 13,
+          "item": "item-13",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 15,
+          "item": "item-19",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 16,
+          "item": "item-08",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 17,
+          "item": "item-24",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 20,
+          "item": "item-06",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 22,
+          "item": "item-19",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 23,
+          "item": "item-24",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 25,
+          "item": "item-09",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 26,
+          "item": "item-07",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 27,
+          "item": "item-09",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 29,
+          "item": "item-06",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 30,
+          "item": "item-15",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 32,
+          "item": "item-13",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 33,
+          "item": "item-14",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 34,
+          "item": "item-05",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 35,
+          "item": "item-03",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 36,
+          "item": "item-22",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 37,
+          "item": "item-01",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 38,
+          "item": "item-09",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 39,
+          "item": "item-17",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 40,
+          "item": "item-10",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 42,
+          "item": "item-14",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 43,
+          "item": "item-01",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 44,
+          "item": "item-18",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 45,
+          "item": "item-03",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 46,
+          "item": "item-09",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 49,
+          "item": "item-19",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 50,
+          "item": "item-24",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 53,
+          "item": "item-13",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 56,
+          "item": "item-13",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 57,
+          "item": "item-15",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 58,
+          "item": "item-24",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 59,
+          "item": "item-21",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 60,
+          "item": "item-07",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 61,
+          "item": "item-22",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 62,
+          "item": "item-13",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 65,
+          "item": "item-07",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 66,
+          "item": "item-07",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 68,
+          "item": "item-07",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 70,
+          "item": "item-09",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 73,
+          "item": "item-24",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 74,
+          "item": "item-19",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 75,
+          "item": "item-15",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 77,
+          "item": "item-15",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 80,
+          "item": "item-06",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 82,
+          "item": "item-06",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 85,
+          "item": "item-18",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 86,
+          "item": "item-12",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 88,
+          "item": "item-03",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 89,
+          "item": "item-08",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 90,
+          "item": "item-21",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 92,
+          "item": "item-01",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 95,
+          "item": "item-06",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 96,
+          "item": "item-12",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 97,
+          "item": "item-09",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 100,
+          "item": "item-21",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 102,
+          "item": "item-05",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 105,
+          "item": "item-03",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 106,
+          "item": "item-20",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 107,
+          "item": "item-21",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 109,
+          "item": "item-06",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 110,
+          "item": "item-19",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 112,
+          "item": "item-07",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 114,
+          "item": "item-20",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 115,
+          "item": "item-12",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 116,
+          "item": "item-19",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 118,
+          "item": "item-03",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 119,
+          "item": "item-13",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 122,
+          "item": "item-12",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 123,
+          "item": "item-15",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 125,
+          "item": "item-17",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 128,
+          "item": "item-01",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 129,
+          "item": "item-10",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 130,
+          "item": "item-15",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 131,
+          "item": "item-10",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 132,
+          "item": "item-18",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 134,
+          "item": "item-10",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 136,
+          "item": "item-01",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 139,
+          "item": "item-18",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 140,
+          "item": "item-03",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 141,
+          "item": "item-22",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 142,
+          "item": "item-22",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 144,
+          "item": "item-21",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        }
+      ],
+      "conditions": {
+        "baseline": {
+          "accuracy": {
+            "count": 20,
+            "denominator": 48
+          },
+          "repeat_agreement": {
+            "count": 21,
+            "denominator": 24
+          }
+        },
+        "paraphrase": {
+          "accuracy": {
+            "count": 18,
+            "denominator": 48
+          },
+          "repeat_agreement": {
+            "count": 20,
+            "denominator": 24
+          },
+          "agreement_with_baseline": {
+            "count": 25,
+            "denominator": 48
+          },
+          "baseline_correct_variant_failed": 6,
+          "baseline_failed_variant_correct": 4,
+          "accuracy_delta": -0.041666666666666664,
+          "accuracy_delta_item_bootstrap_95": [
+            -0.22916666666666666,
+            0.125
+          ]
+        },
+        "layout": {
+          "accuracy": {
+            "count": 16,
+            "denominator": 48
+          },
+          "repeat_agreement": {
+            "count": 19,
+            "denominator": 24
+          },
+          "agreement_with_baseline": {
+            "count": 34,
+            "denominator": 48
+          },
+          "baseline_correct_variant_failed": 4,
+          "baseline_failed_variant_correct": 0,
+          "accuracy_delta": -0.08333333333333333,
+          "accuracy_delta_item_bootstrap_95": [
+            -0.20833333333333334,
+            0
+          ]
+        }
+      },
+      "successful_http_latency_ms": {
+        "count": 144,
+        "median": 673.828,
+        "p95_nearest_rank": 768.282
+      }
+    },
+    {
+      "protocol": "constrained",
+      "provider": "ollama",
+      "model": "mistral:latest",
+      "observed_models": [
+        "mistral:latest"
+      ],
+      "items": 24,
+      "attempts": 144,
+      "correct": 43,
+      "all_six_correct": {
+        "count": 2,
+        "denominator": 24
+      },
+      "failures_by_type": {
+        "request_error": 0,
+        "format_error": 0,
+        "wrong_option": 101
+      },
+      "stop_reasons": {
+        "stop": 144
+      },
+      "failure_rows": [
+        {
+          "sequence": 1,
+          "item": "item-21",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 3,
+          "item": "item-01",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 4,
+          "item": "item-04",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 5,
+          "item": "item-12",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 7,
+          "item": "item-10",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 8,
+          "item": "item-18",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 9,
+          "item": "item-23",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 10,
+          "item": "item-18",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 12,
+          "item": "item-24",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 13,
+          "item": "item-13",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 14,
+          "item": "item-08",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 15,
+          "item": "item-19",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 17,
+          "item": "item-24",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 18,
+          "item": "item-08",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 20,
+          "item": "item-06",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 22,
+          "item": "item-19",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 23,
+          "item": "item-24",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 24,
+          "item": "item-23",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 25,
+          "item": "item-09",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 26,
+          "item": "item-07",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 27,
+          "item": "item-09",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 28,
+          "item": "item-11",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 29,
+          "item": "item-06",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 30,
+          "item": "item-15",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 32,
+          "item": "item-13",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 37,
+          "item": "item-01",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 38,
+          "item": "item-09",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 40,
+          "item": "item-10",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 41,
+          "item": "item-16",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 43,
+          "item": "item-01",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 44,
+          "item": "item-18",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 45,
+          "item": "item-03",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 46,
+          "item": "item-09",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 50,
+          "item": "item-24",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 51,
+          "item": "item-05",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 52,
+          "item": "item-23",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 53,
+          "item": "item-13",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 54,
+          "item": "item-20",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 55,
+          "item": "item-20",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 56,
+          "item": "item-13",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 58,
+          "item": "item-24",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 59,
+          "item": "item-21",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 61,
+          "item": "item-22",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 62,
+          "item": "item-13",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 63,
+          "item": "item-12",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 65,
+          "item": "item-07",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 68,
+          "item": "item-07",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 69,
+          "item": "item-11",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 70,
+          "item": "item-09",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 72,
+          "item": "item-17",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 73,
+          "item": "item-24",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 74,
+          "item": "item-19",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 75,
+          "item": "item-15",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 76,
+          "item": "item-22",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 77,
+          "item": "item-15",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 78,
+          "item": "item-08",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 79,
+          "item": "item-04",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 80,
+          "item": "item-06",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 81,
+          "item": "item-08",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 82,
+          "item": "item-06",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 84,
+          "item": "item-04",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 85,
+          "item": "item-18",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 86,
+          "item": "item-12",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 87,
+          "item": "item-17",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 88,
+          "item": "item-03",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 90,
+          "item": "item-21",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 91,
+          "item": "item-23",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 92,
+          "item": "item-01",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 94,
+          "item": "item-16",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 95,
+          "item": "item-06",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 96,
+          "item": "item-12",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 97,
+          "item": "item-09",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 98,
+          "item": "item-04",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 100,
+          "item": "item-21",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 101,
+          "item": "item-22",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "A",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 105,
+          "item": "item-03",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 106,
+          "item": "item-20",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 107,
+          "item": "item-21",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 109,
+          "item": "item-06",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 110,
+          "item": "item-19",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "D",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 112,
+          "item": "item-07",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 113,
+          "item": "item-05",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 114,
+          "item": "item-20",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 115,
+          "item": "item-12",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 116,
+          "item": "item-19",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 118,
+          "item": "item-03",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 119,
+          "item": "item-13",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 121,
+          "item": "item-20",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 122,
+          "item": "item-12",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 123,
+          "item": "item-15",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 127,
+          "item": "item-17",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 128,
+          "item": "item-01",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 131,
+          "item": "item-10",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 132,
+          "item": "item-18",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 134,
+          "item": "item-10",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 135,
+          "item": "item-17",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 136,
+          "item": "item-01",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 137,
+          "item": "item-20",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 139,
+          "item": "item-18",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 142,
+          "item": "item-22",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": "C",
+          "outcome": "wrong_option"
+        },
+        {
+          "sequence": 144,
+          "item": "item-21",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": "B",
+          "outcome": "wrong_option"
+        }
+      ],
+      "conditions": {
+        "baseline": {
+          "accuracy": {
+            "count": 14,
+            "denominator": 48
+          },
+          "repeat_agreement": {
+            "count": 24,
+            "denominator": 24
+          }
+        },
+        "paraphrase": {
+          "accuracy": {
+            "count": 12,
+            "denominator": 48
+          },
+          "repeat_agreement": {
+            "count": 24,
+            "denominator": 24
+          },
+          "agreement_with_baseline": {
+            "count": 18,
+            "denominator": 48
+          },
+          "baseline_correct_variant_failed": 8,
+          "baseline_failed_variant_correct": 6,
+          "accuracy_delta": -0.041666666666666664,
+          "accuracy_delta_item_bootstrap_95": [
+            -0.25,
+            0.16666666666666666
+          ]
+        },
+        "layout": {
+          "accuracy": {
+            "count": 17,
+            "denominator": 48
+          },
+          "repeat_agreement": {
+            "count": 23,
+            "denominator": 24
+          },
+          "agreement_with_baseline": {
+            "count": 28,
+            "denominator": 48
+          },
+          "baseline_correct_variant_failed": 8,
+          "baseline_failed_variant_correct": 11,
+          "accuracy_delta": 0.0625,
+          "accuracy_delta_item_bootstrap_95": [
+            -0.1875,
+            0.3125
+          ]
+        }
+      },
+      "successful_http_latency_ms": {
+        "count": 144,
+        "median": 583.204,
+        "p95_nearest_rank": 622.431
+      }
+    },
+    {
+      "protocol": "pilot",
+      "provider": "ollama",
+      "model": "qwen3:4b",
+      "observed_models": [
+        "qwen3:4b"
+      ],
+      "items": 24,
+      "attempts": 144,
+      "correct": 0,
+      "all_six_correct": {
+        "count": 0,
+        "denominator": 24
+      },
+      "failures_by_type": {
+        "request_error": 0,
+        "format_error": 144,
+        "wrong_option": 0
+      },
+      "stop_reasons": {
+        "length": 144
+      },
+      "failure_rows": [
+        {
+          "sequence": 1,
+          "item": "item-21",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 2,
+          "item": "item-10",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 3,
+          "item": "item-01",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 4,
+          "item": "item-04",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 5,
+          "item": "item-12",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 6,
+          "item": "item-11",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 7,
+          "item": "item-10",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 8,
+          "item": "item-18",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 9,
+          "item": "item-23",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 10,
+          "item": "item-18",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 11,
+          "item": "item-14",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 12,
+          "item": "item-24",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 13,
+          "item": "item-13",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 14,
+          "item": "item-08",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 15,
+          "item": "item-19",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 16,
+          "item": "item-08",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 17,
+          "item": "item-24",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 18,
+          "item": "item-08",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 19,
+          "item": "item-04",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 20,
+          "item": "item-06",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 21,
+          "item": "item-23",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 22,
+          "item": "item-19",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 23,
+          "item": "item-24",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 24,
+          "item": "item-23",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 25,
+          "item": "item-09",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 26,
+          "item": "item-07",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 27,
+          "item": "item-09",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 28,
+          "item": "item-11",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 29,
+          "item": "item-06",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 30,
+          "item": "item-15",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 31,
+          "item": "item-02",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 32,
+          "item": "item-13",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 33,
+          "item": "item-14",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 34,
+          "item": "item-05",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 35,
+          "item": "item-03",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 36,
+          "item": "item-22",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 37,
+          "item": "item-01",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 38,
+          "item": "item-09",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 39,
+          "item": "item-17",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 40,
+          "item": "item-10",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 41,
+          "item": "item-16",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 42,
+          "item": "item-14",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 43,
+          "item": "item-01",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 44,
+          "item": "item-18",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 45,
+          "item": "item-03",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 46,
+          "item": "item-09",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 47,
+          "item": "item-16",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 48,
+          "item": "item-02",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 49,
+          "item": "item-19",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 50,
+          "item": "item-24",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 51,
+          "item": "item-05",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 52,
+          "item": "item-23",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 53,
+          "item": "item-13",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 54,
+          "item": "item-20",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 55,
+          "item": "item-20",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 56,
+          "item": "item-13",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 57,
+          "item": "item-15",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 58,
+          "item": "item-24",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 59,
+          "item": "item-21",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 60,
+          "item": "item-07",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 61,
+          "item": "item-22",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 62,
+          "item": "item-13",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 63,
+          "item": "item-12",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 64,
+          "item": "item-02",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 65,
+          "item": "item-07",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 66,
+          "item": "item-07",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 67,
+          "item": "item-11",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 68,
+          "item": "item-07",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 69,
+          "item": "item-11",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 70,
+          "item": "item-09",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 71,
+          "item": "item-23",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 72,
+          "item": "item-17",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 73,
+          "item": "item-24",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 74,
+          "item": "item-19",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 75,
+          "item": "item-15",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 76,
+          "item": "item-22",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 77,
+          "item": "item-15",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 78,
+          "item": "item-08",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 79,
+          "item": "item-04",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 80,
+          "item": "item-06",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 81,
+          "item": "item-08",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 82,
+          "item": "item-06",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 83,
+          "item": "item-16",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 84,
+          "item": "item-04",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 85,
+          "item": "item-18",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 86,
+          "item": "item-12",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 87,
+          "item": "item-17",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 88,
+          "item": "item-03",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 89,
+          "item": "item-08",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 90,
+          "item": "item-21",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 91,
+          "item": "item-23",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 92,
+          "item": "item-01",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 93,
+          "item": "item-14",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 94,
+          "item": "item-16",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 95,
+          "item": "item-06",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 96,
+          "item": "item-12",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 97,
+          "item": "item-09",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 98,
+          "item": "item-04",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 99,
+          "item": "item-16",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 100,
+          "item": "item-21",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 101,
+          "item": "item-22",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 102,
+          "item": "item-05",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 103,
+          "item": "item-02",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 104,
+          "item": "item-14",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 105,
+          "item": "item-03",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 106,
+          "item": "item-20",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 107,
+          "item": "item-21",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 108,
+          "item": "item-04",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 109,
+          "item": "item-06",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 110,
+          "item": "item-19",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 111,
+          "item": "item-11",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 112,
+          "item": "item-07",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 113,
+          "item": "item-05",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 114,
+          "item": "item-20",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 115,
+          "item": "item-12",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 116,
+          "item": "item-19",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 117,
+          "item": "item-05",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 118,
+          "item": "item-03",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 119,
+          "item": "item-13",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 120,
+          "item": "item-05",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 121,
+          "item": "item-20",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 122,
+          "item": "item-12",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 123,
+          "item": "item-15",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 124,
+          "item": "item-14",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 125,
+          "item": "item-17",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 126,
+          "item": "item-02",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 127,
+          "item": "item-17",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 128,
+          "item": "item-01",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 129,
+          "item": "item-10",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 130,
+          "item": "item-15",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 131,
+          "item": "item-10",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 132,
+          "item": "item-18",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 133,
+          "item": "item-11",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 134,
+          "item": "item-10",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 135,
+          "item": "item-17",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 136,
+          "item": "item-01",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 137,
+          "item": "item-20",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 138,
+          "item": "item-02",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 139,
+          "item": "item-18",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 140,
+          "item": "item-03",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 141,
+          "item": "item-22",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 142,
+          "item": "item-22",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 143,
+          "item": "item-16",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 144,
+          "item": "item-21",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        }
+      ],
+      "conditions": {
+        "baseline": {
+          "accuracy": {
+            "count": 0,
+            "denominator": 48
+          },
+          "repeat_agreement": {
+            "count": 0,
+            "denominator": 24
+          }
+        },
+        "paraphrase": {
+          "accuracy": {
+            "count": 0,
+            "denominator": 48
+          },
+          "repeat_agreement": {
+            "count": 0,
+            "denominator": 24
+          },
+          "agreement_with_baseline": {
+            "count": 0,
+            "denominator": 48
+          },
+          "baseline_correct_variant_failed": 0,
+          "baseline_failed_variant_correct": 0,
+          "accuracy_delta": 0,
+          "accuracy_delta_item_bootstrap_95": [
+            0,
+            0
+          ]
+        },
+        "layout": {
+          "accuracy": {
+            "count": 0,
+            "denominator": 48
+          },
+          "repeat_agreement": {
+            "count": 0,
+            "denominator": 24
+          },
+          "agreement_with_baseline": {
+            "count": 0,
+            "denominator": 48
+          },
+          "baseline_correct_variant_failed": 0,
+          "baseline_failed_variant_correct": 0,
+          "accuracy_delta": 0,
+          "accuracy_delta_item_bootstrap_95": [
+            0,
+            0
+          ]
+        }
+      },
+      "successful_http_latency_ms": {
+        "count": 144,
+        "median": 1360.6915,
+        "p95_nearest_rank": 1860.748
+      }
+    },
+    {
+      "protocol": "pilot",
+      "provider": "ollama",
+      "model": "mistral:latest",
+      "observed_models": [
+        "mistral:latest"
+      ],
+      "items": 24,
+      "attempts": 144,
+      "correct": 0,
+      "all_six_correct": {
+        "count": 0,
+        "denominator": 24
+      },
+      "failures_by_type": {
+        "request_error": 0,
+        "format_error": 144,
+        "wrong_option": 0
+      },
+      "stop_reasons": {
+        "stop": 130,
+        "length": 14
+      },
+      "failure_rows": [
+        {
+          "sequence": 1,
+          "item": "item-21",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 2,
+          "item": "item-10",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 3,
+          "item": "item-01",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 4,
+          "item": "item-04",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 5,
+          "item": "item-12",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 6,
+          "item": "item-11",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 7,
+          "item": "item-10",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 8,
+          "item": "item-18",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 9,
+          "item": "item-23",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 10,
+          "item": "item-18",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 11,
+          "item": "item-14",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 12,
+          "item": "item-24",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 13,
+          "item": "item-13",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 14,
+          "item": "item-08",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 15,
+          "item": "item-19",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 16,
+          "item": "item-08",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 17,
+          "item": "item-24",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 18,
+          "item": "item-08",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 19,
+          "item": "item-04",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 20,
+          "item": "item-06",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 21,
+          "item": "item-23",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 22,
+          "item": "item-19",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 23,
+          "item": "item-24",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 24,
+          "item": "item-23",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 25,
+          "item": "item-09",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 26,
+          "item": "item-07",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 27,
+          "item": "item-09",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 28,
+          "item": "item-11",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 29,
+          "item": "item-06",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 30,
+          "item": "item-15",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 31,
+          "item": "item-02",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 32,
+          "item": "item-13",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 33,
+          "item": "item-14",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 34,
+          "item": "item-05",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 35,
+          "item": "item-03",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 36,
+          "item": "item-22",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 37,
+          "item": "item-01",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 38,
+          "item": "item-09",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 39,
+          "item": "item-17",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 40,
+          "item": "item-10",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 41,
+          "item": "item-16",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 42,
+          "item": "item-14",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 43,
+          "item": "item-01",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 44,
+          "item": "item-18",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 45,
+          "item": "item-03",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 46,
+          "item": "item-09",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 47,
+          "item": "item-16",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 48,
+          "item": "item-02",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 49,
+          "item": "item-19",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 50,
+          "item": "item-24",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 51,
+          "item": "item-05",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 52,
+          "item": "item-23",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 53,
+          "item": "item-13",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 54,
+          "item": "item-20",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 55,
+          "item": "item-20",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 56,
+          "item": "item-13",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 57,
+          "item": "item-15",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 58,
+          "item": "item-24",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 59,
+          "item": "item-21",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 60,
+          "item": "item-07",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 61,
+          "item": "item-22",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 62,
+          "item": "item-13",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 63,
+          "item": "item-12",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 64,
+          "item": "item-02",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 65,
+          "item": "item-07",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 66,
+          "item": "item-07",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 67,
+          "item": "item-11",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 68,
+          "item": "item-07",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 69,
+          "item": "item-11",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 70,
+          "item": "item-09",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 71,
+          "item": "item-23",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 72,
+          "item": "item-17",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 73,
+          "item": "item-24",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 74,
+          "item": "item-19",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 75,
+          "item": "item-15",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 76,
+          "item": "item-22",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 77,
+          "item": "item-15",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 78,
+          "item": "item-08",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 79,
+          "item": "item-04",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 80,
+          "item": "item-06",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 81,
+          "item": "item-08",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 82,
+          "item": "item-06",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 83,
+          "item": "item-16",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 84,
+          "item": "item-04",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 85,
+          "item": "item-18",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 86,
+          "item": "item-12",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 87,
+          "item": "item-17",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 88,
+          "item": "item-03",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 89,
+          "item": "item-08",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 90,
+          "item": "item-21",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 91,
+          "item": "item-23",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 92,
+          "item": "item-01",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 93,
+          "item": "item-14",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 94,
+          "item": "item-16",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 95,
+          "item": "item-06",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 96,
+          "item": "item-12",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 97,
+          "item": "item-09",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 98,
+          "item": "item-04",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 99,
+          "item": "item-16",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 100,
+          "item": "item-21",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 101,
+          "item": "item-22",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 102,
+          "item": "item-05",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 103,
+          "item": "item-02",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 104,
+          "item": "item-14",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 105,
+          "item": "item-03",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 106,
+          "item": "item-20",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 107,
+          "item": "item-21",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 108,
+          "item": "item-04",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 109,
+          "item": "item-06",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 110,
+          "item": "item-19",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 111,
+          "item": "item-11",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 112,
+          "item": "item-07",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 113,
+          "item": "item-05",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 114,
+          "item": "item-20",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 115,
+          "item": "item-12",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 116,
+          "item": "item-19",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 117,
+          "item": "item-05",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 118,
+          "item": "item-03",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 119,
+          "item": "item-13",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 120,
+          "item": "item-05",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 121,
+          "item": "item-20",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 122,
+          "item": "item-12",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 123,
+          "item": "item-15",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 124,
+          "item": "item-14",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 125,
+          "item": "item-17",
+          "variant": "paraphrase",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 126,
+          "item": "item-02",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 127,
+          "item": "item-17",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 128,
+          "item": "item-01",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 129,
+          "item": "item-10",
+          "variant": "layout",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 130,
+          "item": "item-15",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 131,
+          "item": "item-10",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 132,
+          "item": "item-18",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 133,
+          "item": "item-11",
+          "variant": "paraphrase",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 134,
+          "item": "item-10",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 135,
+          "item": "item-17",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 136,
+          "item": "item-01",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 137,
+          "item": "item-20",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 138,
+          "item": "item-02",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 139,
+          "item": "item-18",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 140,
+          "item": "item-03",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "C",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 141,
+          "item": "item-22",
+          "variant": "layout",
+          "repeat": 1,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 142,
+          "item": "item-22",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "B",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 143,
+          "item": "item-16",
+          "variant": "baseline",
+          "repeat": 1,
+          "expected": "D",
+          "parsed": null,
+          "outcome": "format_error"
+        },
+        {
+          "sequence": 144,
+          "item": "item-21",
+          "variant": "baseline",
+          "repeat": 2,
+          "expected": "A",
+          "parsed": null,
+          "outcome": "format_error"
+        }
+      ],
+      "conditions": {
+        "baseline": {
+          "accuracy": {
+            "count": 0,
+            "denominator": 48
+          },
+          "repeat_agreement": {
+            "count": 0,
+            "denominator": 24
+          }
+        },
+        "paraphrase": {
+          "accuracy": {
+            "count": 0,
+            "denominator": 48
+          },
+          "repeat_agreement": {
+            "count": 0,
+            "denominator": 24
+          },
+          "agreement_with_baseline": {
+            "count": 0,
+            "denominator": 48
+          },
+          "baseline_correct_variant_failed": 0,
+          "baseline_failed_variant_correct": 0,
+          "accuracy_delta": 0,
+          "accuracy_delta_item_bootstrap_95": [
+            0,
+            0
+          ]
+        },
+        "layout": {
+          "accuracy": {
+            "count": 0,
+            "denominator": 48
+          },
+          "repeat_agreement": {
+            "count": 0,
+            "denominator": 24
+          },
+          "agreement_with_baseline": {
+            "count": 0,
+            "denominator": 48
+          },
+          "baseline_correct_variant_failed": 0,
+          "baseline_failed_variant_correct": 0,
+          "accuracy_delta": 0,
+          "accuracy_delta_item_bootstrap_95": [
+            0,
+            0
+          ]
+        }
+      },
+      "successful_http_latency_ms": {
+        "count": 144,
+        "median": 496.299,
+        "p95_nearest_rank": 1447.176
+      }
+    }
+  ]
+}
