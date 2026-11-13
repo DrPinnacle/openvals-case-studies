@@ -40,7 +40,7 @@ OpenVals research examines **what failed, how to measure it, what evidence is av
 
 | ID | Case study | Research area | Evidence / scope | Materials |
 |:--|:--|:--|:--|:--|
-| **001** | **Evaluating the Evaluator — LLM-as-a-Judge Reliability** | LLM evaluation, position bias, verbosity bias, incorrect approvals | Synthetic deterministic demonstration; not a real-model or production benchmark | [Study 001](case-study-001/README.md) |
+| **001** | **Evaluating the Evaluator — LLM-as-a-Judge Reliability** | LLM evaluation, position bias, verbosity bias, incorrect approvals | Synthetic deterministic demonstration; not a real-model or production benchmark | [Study 001](case-study-001-LLM-as-a-Judge-Reliability/README.md) |
 | **002** | **PHP2Shell — Security Incident Analysis** | Cybersecurity, exploit analysis, enterprise assurance | Consult the study's own documentation for verified facts, methodology, and any OpenVals-specific tests | [Study 002](PHP2Shell_Case_Study_002/) |
 | **003** | **Prompt-Injection Resilience** | Prompt-injection evaluation, instruction boundaries, benign task utility | Published v1.0; synthetic simulation with 36 fixtures and three deterministic policies; no empirical LLM or production evidence | [Study 003](case-study-003-prompt-injection/README.md) |
 | **004** | **LLM Reliability Under Meaning-Preserving Prompt Perturbations** | Prompt robustness, repeated-run reliability, structured output | Controlled local-model experiments on Qwen3-4B and Mistral. Commercial cohort not run. | [Study 004](case-study-004-prompt-perturbations/README.md) |
